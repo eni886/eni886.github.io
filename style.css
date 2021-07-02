@@ -1,0 +1,242 @@
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+ background-color:#EEFAFF; 
+}
+main {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  margin-left: 10%;
+  margin-right: 10;
+}
+
+
+
+/* STYLE TEXT */
+
+h1 {
+  color:#78CBA7;
+  font-family: 'Dosis';font-size: 37px;
+  text-align: center;
+  background-color:#EEFAFF;
+  line-height: 1.3em;
+  letter-spacing: 1.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+p1 {
+  font-family: 'Dosis';font-size: 18px;
+  color: black;
+  background-color:#EEFAFF;
+  text-align: center;
+  line-height: 1em;
+  letter-spacing: 1px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  position: absolute;
+}
+p2 {
+  font-family: 'Dosis';font-size: 18px;
+  color: black;
+  text-align: center;
+  line-height: 1em;
+  letter-spacing: 1px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+
+.subtitle{
+  text-align: center;
+  font-size: 25px;
+  padding-top:20px;
+
+}
+
+.attribution{
+  font-size:14px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+a{
+  color:#EEFAFF;
+  text-decoration: none;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:#EEFAFF;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#ffcc99;
+  color: #78CBA7;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#EEFAFF;
+  color:#78CBA7;
+}
+
+
+.topnav {
+  position: relative;
+  background-color: #EEFAFF;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+ background-color: #EEFAFF; 
+ color: #78CBA7;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #78CBA7;
+  color:black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #78CBA7;
+  color:black;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:#EEFAFF;
+  color:#78CBA7;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 60px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+
+/* STYLE IMAGES */
+
+.felx-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.flex-item{
+  flex-basis:100%;
+  margin:1%;
+}
+
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+#factBtn {
+  background:#ffcc99;
+  border-style: none;
+  border-radius: 10px;
+
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 15px;
+
+color: solid white;
+font-size: 1em;
+
+}
+
+#scriptBtn{
+  background:white;
+  border-style: none;
+  border-radius: 10px;
+
+  padding:10px;
+  margin-top: 20px;
+  margin-bottom:15px;
+  margin-left:35%;
+  margin-right: 35%;
+  color:white;
+  font-size: 1em;
+}
+.genfact{
+  background:#EEFAFF;
+  border-radius: 10px;
+  border-style: none;
+  padding:15px;
+  margin-top: 30px;
+  margin-left:35%;
+  margin-right: 35%;
+
+  font-family:'Dosis', sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color:black;
+}
+
+#fact { 
+border-style: none;
+padding:15px;
+margin-top: 30px;
+margin-left:15%;
+margin-right: 15%;
+
+font-family:"Dosis", sans-serif;
+font-size: 2em;
+text-align: center;
+line-height: 1.2em;
+color: black;
+}
